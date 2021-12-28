@@ -1,5 +1,5 @@
 <?php
-require_once '../src/Gua/gua64.php';
+require_once '../src/Gua/Gua64.php';
 
 use Gua\Gua64;
 

@@ -5,7 +5,7 @@
 ## install
 
 ```
-composer require lizongying/gua64
+composer require lizongying/gua64 dev-main
 ```
 
 ## example
