@@ -11,6 +11,9 @@ composer require lizongying/gua64 dev-main
 ## example
 
 ```
+<?php
+require_once 'vendor/autoload.php';
+
 use Gua\Gua64;
 
 $gua64 = new Gua64();
