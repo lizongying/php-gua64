@@ -1,0 +1,21 @@
+{
+  "name": "lizongying/gua64",
+  "description": "六十四卦代替base64",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Li ZongYing",
+      "email": "lizongying@msn.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gua\\": "src/"
+    }
+  }
+}
