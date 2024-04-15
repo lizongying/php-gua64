@@ -11,5 +11,11 @@ echo $encode . PHP_EOL;
 $decode = $gua64::decode('䷯䷬䷿䷶䷸䷬䷀䷌䷌䷎䷼䷲䷰䷳䷸䷘䷔䷭䷒〇');
 echo $decode . PHP_EOL;
 
+$encode = $gua64::encode('8087:7000');
+echo $encode . PHP_EOL;
+
+$decode = $gua64::decode('䷞䷓䷁䷊䷷䷼䷣䷉䷽䷓䷁䷒');
+echo $decode . PHP_EOL;
+
 $verify = $gua64::verify('䷯䷬䷿䷶䷸䷬䷀䷌䷌䷎䷼䷲䷰䷳䷸䷘䷔䷭䷒〇');
 var_dump($verify);
