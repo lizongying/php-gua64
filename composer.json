@@ -1,6 +1,6 @@
 {
   "name": "lizongying/gua64",
-  "description": "六十四卦代替base64",
+  "description": "六十四卦编码，php实现。\n如：“hello，世界”会编码为“䷯䷬䷿䷶䷸䷬䷀䷌䷌䷎䷼䷲䷰䷳䷸䷘䷔䷭䷒〇”。",
   "type": "library",
   "license": "MIT",
   "authors": [
