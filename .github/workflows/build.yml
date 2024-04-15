@@ -21,12 +21,3 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
-
-#      - name: Install Composer dependencies
-#        run: composer install --no-dev --optimize-autoloader
-
-#      - name: Authenticate with GitHub Packages
-#        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_TOKEN }}" >> $HOME/.composer/auth.json
-
-#      - name: Publish Composer package
-#        run: composer publish
